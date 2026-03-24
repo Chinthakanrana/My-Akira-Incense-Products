@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0a0a0a;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#000, #1a1410);
+    text-align: center;
+}
+
+.hero h1 {
+    color: gold;
+    font-size: 3rem;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid gold;
+    color: gold;
+    text-decoration: none;
+}
+
+/* PRODUCTS */
+.products {
+    padding: 50px;
+    text-align: center;
+}
+
+.card {
+    background: #1a1a1a;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: green;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+}
